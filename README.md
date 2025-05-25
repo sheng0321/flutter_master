@@ -22,25 +22,27 @@ An interactive quiz app built with Flutter to help developers master Flutter con
 
 ### Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/flutter-quiz-app.git
+ ```bash
+ git clone https://github.com/yourusername/flutter-quiz-app.git
+ ```
 Install dependencies:
 
-bash
+```bash
 flutter pub get
+```
 Run the app:
-
-bash
+```bash
 flutter run
+```
 Question Database 📚
 All questions are stored in Dart files:
-
+```
 lib/data/questions.dart - Core question bank
 
 lib/data/advanced_questions.dart - Advanced concepts
 
 lib/data/more_questions.dart - Additional challenges
-
+```
 Adding New Questions
 Simply edit the question files following this format:
 
@@ -60,15 +62,15 @@ const questions = [
 ];
 ```
 App Structure 🏗️
+```
 lib/
-
-├── main.dart          # App entry point\
-├── data/              # Question database\
-├── screens/           # UI screens\
-├── widgets/           # Reusable components\
-└── models/            # Data models\
-
-Contributing 🤝
+├── main.dart          # App entry point
+├── data/              # Question database
+├── screens/           # UI screens
+├── widgets/           # Reusable components
+└── models/            # Data models
+```
+Contributing 🤝\
 Contributions are welcome! Please:
 ```
 Fork the project
