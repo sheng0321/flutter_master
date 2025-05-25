@@ -66,10 +66,11 @@ lib/
 ├── data/              # Question database\
 ├── screens/           # UI screens\
 ├── widgets/           # Reusable components\
-└── models/            # Data models
+└── models/            # Data models\
+
 Contributing 🤝
 Contributions are welcome! Please:
-
+```
 Fork the project
 
 Create your feature branch
@@ -79,7 +80,7 @@ Commit your changes
 Push to the branch
 
 Open a pull request
-
+```
 License 📄
 This project is licensed under the MIT License - see the LICENSE file for details.
 
